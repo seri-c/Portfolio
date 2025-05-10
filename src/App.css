@@ -1,20 +1,31 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brown: #5C3B3B;
+  --color-copper: #ba4b5c;
+  --color-blush: #d16666;
+
+}
 
 .animated-bg {
-  animation:  gradient 8s linear infinite;
-  
+  /* background-color: white; */
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+
 }
 
 
 @keyframes gradient {
   0% {
-		background-position: 50% 0%;
-	}
-	50% {
-		background-position: 50% 100%;
-	}
-	100% {
-		background-position: 50% 0%;
-	}
+    background-position: 50% 0%;
+  }
+
+  50% {
+    background-position: 50% 100%;
+  }
+
+  100% {
+    background-position: 50% 0%;
+  }
 }
