@@ -3,6 +3,7 @@ import NavBar from './components/Navbar'
 import './App.css'
 import InfoGradient from './components/InfoGradient'
 import FooterGradient from './components/FooterGradient'
+import Box from './components/Box'
 
 function App() {
 
@@ -12,14 +13,12 @@ function App() {
       <div className='absolute'>
 
         <NavBar></NavBar>
-        
+
         <InfoGradient></InfoGradient>
 
-        <div className="w-screen h-70">
+        <Box></Box>
 
-        </div>
-
-       <FooterGradient></FooterGradient>
+        <FooterGradient></FooterGradient>
 
       </div>
 
