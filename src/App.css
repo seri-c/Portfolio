@@ -7,6 +7,10 @@
 
 }
 
+body {
+  overscroll-behavior: none;
+}
+
 .animated-bg {
   /* background-color: white; */
   -webkit-transition: background-color 0.2s ease-in-out;

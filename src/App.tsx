@@ -10,7 +10,7 @@ function App() {
   return (
     <>
 
-      <div className='absolute'>
+      <div className='h-screen'>
 
         <NavBar></NavBar>
 
