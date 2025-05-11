@@ -2,7 +2,7 @@ export default function JavaLogo() {
     return (
         
 
-            <div className="border border-rose-300/30 cursor-default w-fit rounded-lg py-2.5 px-5 me-2 mb-2">
+            <div className="border border-rose-300/30 cursor-default w-fit rounded-md py-2.5 px-5 me-2 mb-2">
             
 
                 <svg xmlns="http://www.w3.org/2000/svg"  height="30px" viewBox="0 0 32 32" className="fill-rose-400/80 ">

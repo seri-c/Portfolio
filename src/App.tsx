@@ -3,20 +3,20 @@ import NavBar from './components/Navbar'
 import './App.css'
 import InfoGradient from './components/InfoGradient'
 import FooterGradient from './components/FooterGradient'
-import Box from './components/Box'
+import ExperienceTimeline from './components/ExperienceTimeline'
 
 function App() {
 
   return (
     <>
 
-      <div className='font-[Optima]'>
+      <div className='h-screen'>
 
         <NavBar></NavBar>
 
         <InfoGradient></InfoGradient>
 
-        <Box></Box>
+        <ExperienceTimeline></ExperienceTimeline>
 
         <FooterGradient></FooterGradient>
 
