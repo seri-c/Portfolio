@@ -1,5 +1,9 @@
-# React + TypeScript + Vite
+# Portfolio
+Hi! This github hosts my portfolio code. I built my portfolio website using Typescript, React and Vite. I leveraged Github pages to deploy and host it at [https://seri-c.github.io/Portfolio/](url) 
+
+
+## View of my Website
+![image](https://github.com/user-attachments/assets/6091ff0c-4697-4645-997d-3aa770dd8559)
 
 
 
-## Expanding the ESLint configuration
