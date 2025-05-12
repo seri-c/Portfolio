@@ -7,7 +7,7 @@ export default function InfoGradient() {
             <div className="text-center text-copper p-4 m-auto font-[Optima]">
 
                 <p className="  font-medium text-6xl">Hi! I'm Christelle Seri</p>
-                <p className=" text-xl font-medium ">A passionate Fullstack Developer with 2 years of experience in building functional and user friendly features for websites.
+                <p className=" text-xl font-medium ">A passionate full stack developer with 2 years of experience in building functional and user friendly features for websites
                 </p>
 
             </div>

@@ -3,7 +3,7 @@
 
 export default function RedisLogo() {
     return (
-        <>
+        
 
             <div className="border border-rose-300/30 cursor-default w-fit rounded-md py-2.5 px-3 me-2 mb-2">
                 <svg height="30px" className="fill-rose-400/80 m-auto"  viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" >
@@ -11,7 +11,7 @@ export default function RedisLogo() {
                 </svg>
                 <span className="text-rose-400/80">Redis</span>
             </div>
-        </>
+        
     )
 };
 

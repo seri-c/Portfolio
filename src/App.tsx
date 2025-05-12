@@ -1,9 +1,10 @@
-import { useState } from 'react'
+
 import NavBar from './components/Navbar'
 import './App.css'
 import InfoGradient from './components/InfoGradient'
 import FooterGradient from './components/FooterGradient'
 import ExperienceTimeline from './components/ExperienceTimeline'
+import About from './components/About'
 
 function App() {
 
@@ -15,10 +16,11 @@ function App() {
         <NavBar></NavBar>
 
         <InfoGradient></InfoGradient>
+        <About id="About"></About>
 
-        <ExperienceTimeline></ExperienceTimeline>
+        <ExperienceTimeline id="Experience"></ExperienceTimeline>
 
-        <FooterGradient></FooterGradient>
+        <FooterGradient id="Projects"></FooterGradient>
 
       </div>
 

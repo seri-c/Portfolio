@@ -11,7 +11,10 @@ import RedisLogo from "./Logos/RedisLogo";
 import MongoLogo from "./Logos/MongoLogo";
 import AngularLogo from "./Logos/AngularLogo";
 
-export default function ExperienceTimeline() {
+import CherryBlossom from "./Logos/CherryBlossom";
+import type { GenericInterface } from "../interfaces/GenericInterface";
+
+const ExperienceTimeline: React.FC<GenericInterface> = ({id})=> {
 
     const ErcotExperience: Experience = {
         title: "GDP Engineer",
@@ -48,8 +51,9 @@ export default function ExperienceTimeline() {
     }
 
     return (
-        <div className="w-screen h-fit p-2 bg-offwhite">
-
+        <div className="w-screen h-fit p-3 bg-offwhite" id={id}>
+            
+            <p className="text-3xl px-4 pt-11 pb-4 text-red-300/75">Experience</p>
 
         
 
@@ -64,6 +68,8 @@ export default function ExperienceTimeline() {
 
             </ExperienceCard>
 
+            <CherryBlossom height="20pt"></CherryBlossom>
+
             <ExperienceCard {...NPExperience1}>
                 <div className="mt-4 flex flex-row">
                     <DockerLogo></DockerLogo>
@@ -71,6 +77,9 @@ export default function ExperienceTimeline() {
                 </div>
 
             </ExperienceCard>
+
+            <CherryBlossom height="20pt"></CherryBlossom>
+
             <ExperienceCard {...NPExperience2}>
                 <div className="mt-4 flex flex-row">
                     <MongoLogo></MongoLogo>
@@ -84,3 +93,5 @@ export default function ExperienceTimeline() {
     );
 
 }
+
+export default ExperienceTimeline;

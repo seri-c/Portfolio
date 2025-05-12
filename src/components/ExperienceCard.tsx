@@ -11,10 +11,11 @@ const ExperienceCard: React.FC<Experience> = ({ title, timeframe, company, exper
             <div className="p-4 text-black/60 ">
 
                 <div className="flex">
-                    <span className="text-2xl text-black font-medium flex-1 ">{title}</span>
 
+                    <span className="text-2xl text-black font-medium flex-1 ">{title}</span>
                     <span className="text-xl">{timeframe}</span>
                 </div>
+
                 <p className="text-xl font-medium text-rose-400/80">{company}</p>
 
                 <ul className="px-4 pt-2  font-extralight list-disc marker:text-rose-400 text-lg">
