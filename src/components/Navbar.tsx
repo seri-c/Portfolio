@@ -24,10 +24,10 @@ export default function NavBar() {
                 </div>
 
 
-                <a href="#" className="hidden md:block">Home</a>
-                <a href="#About" className="hidden md:block">About</a>
-                <a href="#Experience" className="hidden md:block">Experience</a>
-                <a href="#Projects"className="hidden md:block">Projects</a>
+                <a href="#" className="hidden md:block md:text-lg">Home</a>
+                <a href="#About" className="hidden md:block md:text-lg">About</a>
+                <a href="#Experience" className="hidden md:block md:text-lg">Experience</a>
+                <a href="#Projects"className="hidden md:block md:text-lg">Projects</a>
 
                 <div>
                     <a href={ResumePdf} target="_blank"  className="text-xs md:text-lg  shadow-lg shadow-rose-300/20 border border-copper/50 hover:bg-copper hover:text-white hover:cursor-pointer  rounded-lg px-2.5 py-1.5 me-2  ">
