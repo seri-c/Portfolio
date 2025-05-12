@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ResumePdf from "../assets/Christelle_Seri_Resume.pdf"
 
 
 export default function NavBar() {
@@ -29,7 +30,7 @@ export default function NavBar() {
                 <a href="#Projects" className="text-sm md:text-xl">Projects</a>
 
                 <div>
-                    <a href="src/assets/Christelle_Seri_Resume.pdf" target="_blank"  className="text-xs md:text-lg  shadow-lg shadow-rose-300/20 border border-copper/50 hover:bg-copper hover:text-white hover:cursor-pointer  rounded-lg px-2.5 py-1.5 me-2  ">
+                    <a href={ResumePdf} target="_blank"  className="text-xs md:text-lg  shadow-lg shadow-rose-300/20 border border-copper/50 hover:bg-copper hover:text-white hover:cursor-pointer  rounded-lg px-2.5 py-1.5 me-2  ">
                         Resume
                     </a>
                 </div>
