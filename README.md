@@ -1,5 +1,5 @@
 # Portfolio
-Hi! This github hosts my portfolio code. I built my portfolio website using Typescript, React and Vite. I leveraged Github pages to deploy and host it at [https://seri-c.github.io/Portfolio/](url) 
+Hi! This github hosts my portfolio code. I built my portfolio website using Typescript, Tailwind, React and Vite. I leveraged Github pages to deploy and host it at [https://seri-c.github.io/Portfolio/](url) 
 
 
 ## View of my Website
