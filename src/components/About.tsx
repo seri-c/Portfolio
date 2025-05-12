@@ -18,6 +18,7 @@ const About: React.FC<GenericInterface> = ({id})=> {
                             I graduated from the University of Illinois at Urbana-Champaign with a Bachelors degree in Electrical Engineering in May 2023 and I've been working at ERCOT for the last 2 years after graduation. I've had a great time developing features to help ERCOT support the Texas Power Grid.
                             I am currently leading full stack development for the <a className="text-blue-500" href="src/assets/RTOC.pdf" target="_blank">Real-Time Operator Communications Tool</a>  there!
                         </span>
+                        
                     </div>
                     <div className='flex-none pl-2 h-60 w-60 '>
                         <img className="rounded-full m-auto" src={ProfileImage} alt="Profile Image" />

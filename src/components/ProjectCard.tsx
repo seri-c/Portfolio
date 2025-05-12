@@ -22,7 +22,7 @@ const ProjectCard: React.FC<Project> = ({ title, subtitle, link, imageSrc, child
                 </div>
             </a>
 
-            <div className="p-3 font-light text-slate-500">
+            <div className="p-4 font-light text-slate-500">
                 <p className='text-2xl'>{title}</p>
                 <p className="text-lg">{subtitle}</p>
                 {children}
