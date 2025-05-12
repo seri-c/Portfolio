@@ -3,7 +3,7 @@ Hi! This github hosts my portfolio code. I built my portfolio website using Type
 
 
 ## View of my Website
-![image](https://github.com/user-attachments/assets/6091ff0c-4697-4645-997d-3aa770dd8559)
+[![image](https://github.com/user-attachments/assets/6091ff0c-4697-4645-997d-3aa770dd8559)](https://seri-c.github.io/Portfolio/)
 
 
 
