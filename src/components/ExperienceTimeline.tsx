@@ -59,7 +59,7 @@ const ExperienceTimeline: React.FC<GenericInterface> = ({id})=> {
 
             <ExperienceCard {...ErcotExperience}>
 
-                <div className="mt-4 flex flex-row">
+                <div className="mt-4 flex flex-wrap flex-row">
                     <ReactLogo></ReactLogo>
                     <JavaLogo></JavaLogo>
                     <BootstrapLogo></BootstrapLogo>
@@ -71,7 +71,7 @@ const ExperienceTimeline: React.FC<GenericInterface> = ({id})=> {
             <CherryBlossom height="20pt"></CherryBlossom>
 
             <ExperienceCard {...NPExperience1}>
-                <div className="mt-4 flex flex-row">
+                <div className="mt-4 flex flex-wrap flex-row">
                     <DockerLogo></DockerLogo>
                     <RedisLogo></RedisLogo>
                 </div>
@@ -81,7 +81,7 @@ const ExperienceTimeline: React.FC<GenericInterface> = ({id})=> {
             <CherryBlossom height="20pt"></CherryBlossom>
 
             <ExperienceCard {...NPExperience2}>
-                <div className="mt-4 flex flex-row">
+                <div className="mt-4 flex flex-wrap flex-row">
                     <MongoLogo></MongoLogo>
                     <AngularLogo></AngularLogo>
                 </div>

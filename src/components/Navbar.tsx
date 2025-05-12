@@ -11,9 +11,9 @@ export default function NavBar() {
     }, []);
 
     return (
-        <header className={`w-screen h-15 fixed  animated-bg ${scroll ? "bg-white border-b-1 border-solid border-copper/30" : "bg-transparent"}  top-0`}>
+        <header className={`w-screen h-15 fixed px-2  animated-bg ${scroll ? "bg-white border-b-1 border-solid border-copper/30" : "bg-transparent"}  top-0`}>
 
-            <div className=" px-2 pt-3 pb-1 text-copper font-light gap-3 flex items-center">
+            <div className=" pt-3 pb-1 text-copper font-light gap-1.25 md:gap-3 flex items-center">
 
                 <div className="flex-1 flex items-center gap-2">
                     <svg height="20pt" version="1.1" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
@@ -24,10 +24,10 @@ export default function NavBar() {
                 </div>
 
 
-                <a href="#" className="text-sm md:text-xl">Home</a>
-                <a href="#About" className="text-sm md:text-xl">About</a>
-                <a href="#Experience" className="text-sm md:text-xl">Experience</a>
-                <a href="#Projects" className="text-sm md:text-xl">Projects</a>
+                <a href="#" className="hidden md:block">Home</a>
+                <a href="#About" className="hidden md:block">About</a>
+                <a href="#Experience" className="hidden md:block">Experience</a>
+                <a href="#Projects"className="hidden md:block">Projects</a>
 
                 <div>
                     <a href={ResumePdf} target="_blank"  className="text-xs md:text-lg  shadow-lg shadow-rose-300/20 border border-copper/50 hover:bg-copper hover:text-white hover:cursor-pointer  rounded-lg px-2.5 py-1.5 me-2  ">
