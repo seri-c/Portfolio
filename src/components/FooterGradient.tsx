@@ -11,7 +11,7 @@ const FooterGradient: React.FC<GenericInterface> = ({ id }) => {
         title: "Portfolio",
         subtitle: "You're on this site! Built by me, using TailwindCSS, ReactJS, and Vite. This website showcases a collection of my work and experience.",
         link: "https://github.com/seri-c/Portfolio",
-        imageSrc: "/src/assets/Portfolio.jpg",
+        imageSrc: "src/assets/Portfolio.jpg",
         children: undefined
     }
 
