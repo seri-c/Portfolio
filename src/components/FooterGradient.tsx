@@ -17,7 +17,7 @@ const FooterGradient: React.FC<GenericInterface> = ({ id }) => {
     }
 
     return (
-        <div id={id} className="w-screen h-fit bg-linear-to-b p-8 from-offwhite from-20% to-pink-100">
+        <div id={id} className="w-screen h-150 md:h-fit bg-linear-to-b p-8 from-offwhite from-20% to-pink-100">
             <p className="text-3xl pb-4  text-black/60">Projects</p>
             <ProjectCard {...PortfolioProject}>
                 <div className="mt-4 flex flex-row">

@@ -24,7 +24,7 @@ export default function NavBar() {
                 </div>
 
 
-                <a href="#" className="hidden md:block md:text-xl">Home</a>
+                <a href="#" className="hidden md:block md:text-lg">Home</a>
                 <a href="#About" className="hidden md:block md:text-lg">About</a>
                 <a href="#Experience" className="hidden md:block md:text-lg">Experience</a>
                 <a href="#Projects"className="hidden md:block md:text-lg">Projects</a>

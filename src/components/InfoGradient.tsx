@@ -2,7 +2,7 @@
 export default function InfoGradient() {
 
     return (
-        <div className="w-screen flex h-screen bg-linear-to-bl from-rose-300 to-amber-100">
+        <div className="w-screen flex  h-200 md:h-screen bg-linear-to-bl from-rose-300 to-amber-100">
 
             <div className="text-center text-copper p-4 m-auto font-[Optima]">
 
