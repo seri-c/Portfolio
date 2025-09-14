@@ -21,9 +21,9 @@ const ExperienceTimeline: React.FC<GenericInterface> = ({id})=> {
         timeframe: "July 2023 - Present",
         company: "ERCOT",
         experienceItems: [
-            { text: "Leading full stack development for an operator communications application with a projected $1M impact" },
-            { text: "Supported GridGeo, an application displaying the Texas Grid Map and interconnections" },
-            { text: "Automated a verification process crucial for maintaining reliability for ERCOT’s 25 million customers" }
+            { text: "Leading full stack development for a $2M power grid communications project" },
+            { text: "Contributed to GridGeo, an application used to visualize the Texas power grid in real time" },
+            { text: "Automated a verification process crucial for maintaining reliability for ERCOT’s 25M customers" }
         ],
         children: undefined
     }
