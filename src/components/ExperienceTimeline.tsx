@@ -4,7 +4,6 @@ import { type Experience } from "../interfaces/ExperienceInterface";
 
 import SpringBootLogo from "./Logos/SpringBootLogo";
 import JavaLogo from "./Logos/JavaLogo";
-import ReactLogo from "./Logos/ReactLogo";
 import SqlLogo from "./Logos/SqlLogo";
 import DockerLogo from "./Logos/DockerLogo";
 import RedisLogo from "./Logos/RedisLogo";
