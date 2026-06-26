@@ -2,7 +2,7 @@
 import ExperienceCard from "./ExperienceCard";
 import { type Experience } from "../interfaces/ExperienceInterface";
 
-import BootstrapLogo from "./Logos/BootstrapLogo";
+import SpringBootLogo from "./Logos/SpringBootLogo";
 import JavaLogo from "./Logos/JavaLogo";
 import ReactLogo from "./Logos/ReactLogo";
 import SqlLogo from "./Logos/SqlLogo";
@@ -14,16 +14,18 @@ import AngularLogo from "./Logos/AngularLogo";
 import CherryBlossom from "./Logos/CherryBlossom";
 import type { GenericInterface } from "../interfaces/GenericInterface";
 
-const ExperienceTimeline: React.FC<GenericInterface> = ({id})=> {
+const ExperienceTimeline: React.FC<GenericInterface> = ({ id }) => {
 
     const ErcotExperience: Experience = {
-        title: "GDP Engineer",
+        title: "Application Developer",
         timeframe: "July 2023 - Present",
         company: "ERCOT",
         experienceItems: [
-            { text: "Leading full stack development for a $2M power grid communications project" },
-            { text: "Contributed to GridGeo, an application used to visualize the Texas power grid in real time" },
-            { text: "Automated a verification process crucial for maintaining reliability for ERCOT’s 25M customers" }
+            { text: "Primary developer for a $2M power grid communications project owning end-to-end backend architecture and database design" },
+            { text: "Led backend performance optimization efforts  by tuning database queries to improve response times and implementing pagination and indexing strategies to reduce CPU saturation during load testing" },
+            { text: "Added automated unit and integration tests covering messaging success and error scenarios" },
+            { text: "Developed OpenAPI specifications for core messaging APIs" },
+            { text: <><strong>POC:</strong> Rebuilt the legacy Servlet and JDBC-based system using Spring Boot and Hibernate to improve scalability and maintainability</>}
         ],
         children: undefined
     }
@@ -52,18 +54,17 @@ const ExperienceTimeline: React.FC<GenericInterface> = ({id})=> {
 
     return (
         <div className="w-screen h-fit p-3 bg-offwhite" id={id}>
-            
-            <p className="text-3xl px-4 pt-11 pb-4 text-red-300/75">Experience</p>
 
-        
+            <p className="text-3xl px-4 pt-11 pb-4 text-blue-400/75">Experience</p>
+
+
 
             <ExperienceCard {...ErcotExperience}>
 
                 <div className="mt-4 flex flex-wrap flex-row">
-                    <ReactLogo></ReactLogo>
                     <JavaLogo></JavaLogo>
-                    <BootstrapLogo></BootstrapLogo>
                     <SqlLogo></SqlLogo>
+                    <SpringBootLogo></SpringBootLogo>
                 </div>
 
             </ExperienceCard>

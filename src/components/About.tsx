@@ -15,9 +15,15 @@ const About: React.FC<GenericInterface> = ({id})=> {
 
                     <div >
                         <p className="text-3xl pb-2 text-blush">About</p>
-                        <span className="text-lg/9 font-extralight  ">Welcome! I'm Christelle, a full stack developer with 2 years of experience focusing on developing beautiful and performant features for web applications.
-                            I graduated from the University of Illinois at Urbana-Champaign with a Bachelors degree in Electrical Engineering in May 2023 and I've been working at ERCOT for the last 2 years after graduation. I've had a great time developing features to help ERCOT support the Texas Power Grid.
-                            I am currently leading full stack development for the <a className="text-blue-500" href={RTOCPdf} target="_blank">Real-Time Operator Communications Tool</a>  there! I'm also currently pursuing a Master's degree in Data Science from UT Austin and will be graduating in May 2026.
+                        <span className="text-lg/9 font-extralight  ">Welcome! I'm Christelle, a full-stack software engineer with 3 years of experience specializing in backend development. I build Java applications, REST APIs, and database-driven systems while also developing user-facing features when needed.
+                        
+                            <br/>
+                            <br/>
+                            I earned a Bachelor's degree in Electrical Engineering from the University of Illinois Urbana-Champaign and a Master's degree in Data Science from UT Austin.
+                           
+                            <br/>
+                            <br/>
+                            Since joining ERCOT in July 2023, I've been developing software that supports the Texas power grid. I'm the primary developer for the <a className="text-blue-500" href={RTOCPdf} target="_blank">Real-Time Operator Communications Tool</a>, where I design and develop backend services, APIs, and database solutions.
                         </span>
                         
                     </div>

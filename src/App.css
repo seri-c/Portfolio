@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brown: #5C3B3B;
-  --color-copper: #ba4b5c;
-  --color-blush: #d16666;
-  --color-offwhite: #eac9c91c;
-  --color-cherry: #ef9aac;
+--color-brown:    #475569;  
+--color-copper:   #5b8def;  
+--color-blush:    #7db7f5;  
+--color-offwhite: #eff6ff1c;
+--color-cherry:   #bfdbfe;
 
 }
 

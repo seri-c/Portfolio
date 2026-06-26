@@ -8,7 +8,7 @@ const ProjectCard: React.FC<Project> = ({ title, subtitle, link, imageSrc, child
 
     return (
 
-        <div className=" bg-white hover:shadow-lg overflow-clip hover:shadow-rose-300/60 rounded-md w-fit mt-4  h-fit m-auto ">
+        <div className=" bg-white hover:shadow-lg overflow-clip hover:shadow-blue-300/60 rounded-md w-fit mt-4  h-fit m-auto ">
 
             <a href={link} target="_blank">
                 <div style={{ backgroundImage: `url(${imageSrc})`}} className="flex-none relative h-40 md:h-90 m-auto w-full bg-cover">

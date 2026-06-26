@@ -1,5 +1,5 @@
 export interface ExperienceItem {
-    text: string;
+    text: string | React.ReactNode;
   }
 
 export interface Experience {
