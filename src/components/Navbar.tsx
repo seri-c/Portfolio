@@ -4,6 +4,8 @@ import ResumePdf from "../assets/Christelle_Seri_Resume.pdf"
 
 export default function NavBar() {
     const [scroll, setScroll] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
+
     useEffect(() => {
         window.addEventListener("scroll", () => {
             setScroll(window.scrollY > 50);
@@ -11,7 +13,7 @@ export default function NavBar() {
     }, []);
 
     return (
-        <header className={`w-screen h-15  top-0 z-50 fixed px-2  animated-bg ${scroll ? "bg-white border-b-1 border-solid border-copper/30" : "bg-transparent"}  top-0`}>
+        <header className={`w-screen h-15  top-0 z-50 fixed px-2  animated-bg ${scroll ? "bg-white" : "bg-transparent"}  ${scroll && !menuOpen ? "border-b border-solid border-copper/30" : ""} top-0`}>
 
             <div className=" pt-3 pb-1 text-copper gap-1.25 md:gap-3 flex items-center">
 
@@ -24,18 +26,39 @@ export default function NavBar() {
                 </div>
 
 
+
                 <a href="#" className="hidden md:block md:text-lg">Home</a>
                 <a href="#About" className="hidden md:block md:text-lg">About</a>
                 <a href="#Experience" className="hidden md:block md:text-lg">Experience</a>
-                <a href="#Projects"className="hidden md:block md:text-lg">Projects</a>
+                <a href="#Projects" className="hidden md:block md:text-lg">Projects</a>
 
                 <div>
-                    <a href={ResumePdf} target="_blank"  className=" md:text-lg  shadow-lg shadow-sky-300/20 border border-copper/50 hover:bg-copper hover:text-white hover:cursor-pointer  rounded-lg px-2.5 py-1.5 me-2  ">
+                    <a href={ResumePdf} target="_blank" className=" md:text-lg  shadow-lg shadow-sky-300/20 border border-copper/50 hover:bg-copper hover:text-white hover:cursor-pointer  rounded-lg px-2.5 py-1.5 me-2  ">
                         Resume
                     </a>
                 </div>
 
+                <button
+                    className="md:hidden text-2xl cursor-pointer"
+                    onClick={() => setMenuOpen(!menuOpen)}
+                >
+                    ☰
+                </button>
+                {menuOpen && (
+
+                    <div className={`absolute top-full right-0 flex justify-end w-full border-t border-blue-300 border-opacity-30 ${scroll ? "bg-white" : "bg-blue-50"} shadow-lg md:hidden`}>
+
+                        <div className="p-4">
+                            <a href="#" onClick={() => setMenuOpen(false)} className="block text-lg">Home</a>
+                            <a href="#About" onClick={() => setMenuOpen(false)} className="block  py-2 text-lg">About</a>
+                            <a href="#Experience" onClick={() => setMenuOpen(false)} className="block py-2 text-lg">Experience</a>
+                            <a href="#Projects" onClick={() => setMenuOpen(false)} className="block py-2 text-lg">Projects</a>
+                        </div>
+                    </div>
+                )}
+
             </div>
+
 
         </header>
     );

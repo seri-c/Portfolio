@@ -16,10 +16,7 @@ const About: React.FC<GenericInterface> = ({id})=> {
                     <div >
                         <p className="text-3xl pb-2 text-blush">About</p>
                         <span className="text-lg/9 font-extralight  ">Welcome! I'm Christelle, a full-stack software engineer with 3 years of experience specializing in backend development. I build Java applications, REST APIs, and database-driven systems while also developing user-facing features when needed.
-                        
-                            <br/>
-                            <br/>
-                            I earned a Bachelor's degree in Electrical Engineering from the University of Illinois Urbana-Champaign and a Master's degree in Data Science from UT Austin.
+                        I earned a Bachelor's degree in Electrical Engineering from the University of Illinois Urbana-Champaign in May 2023 and a Master's degree in Data Science from UT Austin in May 2026.
                            
                             <br/>
                             <br/>
