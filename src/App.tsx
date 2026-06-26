@@ -1,30 +1,18 @@
 
-import NavBar from './components/Navbar'
-import './App.css'
-import InfoGradient from './components/InfoGradient'
-import FooterGradient from './components/FooterGradient'
-import ExperienceTimeline from './components/ExperienceTimeline'
-import About from './components/About'
+import { BrowserRouter,Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/Home';
+import "./App.css"
 
 function App() {
 
   return (
-    <>
+  <BrowserRouter basename="/Portfolio">
+    
 
-      <div className=''>
-
-        <NavBar></NavBar>
-
-        <InfoGradient></InfoGradient>
-        <About id="About"></About>
-
-        <ExperienceTimeline id="Experience"></ExperienceTimeline>
-
-        <FooterGradient id="Projects"></FooterGradient>
-
-      </div>
-
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
